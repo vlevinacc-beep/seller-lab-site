@@ -150,7 +150,27 @@ p { margin: 0 0 16px; color: var(--ivory-dim); }
   color: var(--ivory);
   flex-shrink: 0;
 }
-.logo svg { width: 30px; height: 30px; }
+.logo svg { height: 24px; width: auto; }
+
+.footer__col a.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ivory);
+  font-weight: 800;
+  font-size: 18px;
+  margin-bottom: 14px !important;
+}
+.footer__col a.footer-logo svg { height: 30px; width: auto; }
+.logo__stack { display: inline-flex; flex-direction: column; gap: 4px; line-height: 1; }
+.logo__tag {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--sand);
+  font-weight: 500;
+}
 
 .nav {
   display: flex;
