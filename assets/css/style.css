@@ -395,7 +395,7 @@ p { margin: 0 0 16px; color: var(--ivory-dim); }
   border-radius: var(--radius);
   overflow: hidden;
   background: linear-gradient(145deg, var(--carbon-card), var(--carbon-soft));
-  border: 1px dashed var(--border);
+  border: 1px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: center;
